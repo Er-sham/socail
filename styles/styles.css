@@ -1,3 +1,4 @@
+
 .form-control{
     border: 2px solid rgb(120, 118, 118);
     border-radius: 5%;
@@ -13,4 +14,34 @@
     display: block;
     padding: 10px;
     margin: 10px;
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card .card-header{
+    padding: 10px;
+    margin: 4px;
+    background-color: rgb(47, 49, 52);
+    color: white;
+}
+
+.card .card-body{
+    padding: 10px;
+    margin: 4px;
+    background-color: rgb(195, 206, 206);
+}
+
+.card .card-footer{
+    padding: 10px;
+    margin: 4px;
+    background-color: rgb(206, 202, 202);    
+
 }
