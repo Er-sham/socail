@@ -1,0 +1,16 @@
+.form-control{
+    border: 2px solid rgb(120, 118, 118);
+    border-radius: 5%;
+}
+
+.label-control{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.input-control{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
