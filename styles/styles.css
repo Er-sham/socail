@@ -1,4 +1,28 @@
 
+.nav-bar{
+    display: flex;
+    justify-content: end;
+}
+
+.nav-bar .nav-item{
+    flex-basis: auto;
+}
+
+.nav-bar .nav-item .nav-link{
+    text-decoration: none;
+    padding: 10px;
+    margin: 4px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+
+.nav-bar .nav-item .nav-link:hover{
+    background-color: rgb(10, 10, 159);
+    border: 1px solid rgb(10, 10, 159);
+}
+
+
 .form-control{
     border: 2px solid rgb(120, 118, 118);
     border-radius: 5%;
@@ -45,3 +69,4 @@
     background-color: rgb(206, 202, 202);    
 
 }
+
